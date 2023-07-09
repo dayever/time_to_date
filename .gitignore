@@ -1,0 +1,101 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# macOS의 시스템 파일
+.DS_Store
+
+# IntelliJ IDE 관련 파일
+.idea/
+
+# Visual Studio Code 관련 파일
+.vscode/
+
+# Flutter 빌드 디렉토리
+/build/
+
+# Flutter 패키지 의존성 관련 디렉토리
+.packages
+
+# Flutter 앱의 빌드 결과물 디렉토리
+/flutter_service_worker.js
+/flutter_assets/
+
+# Android 프로젝트 관련 파일
+/android/
+*.iml
+*.iws
+*.apk
+*.jar
+
+# iOS 프로젝트 관련 파일
+/ios/Flutter/
+/ios/Runner.xcworkspace
+/ios/Pods/
+
+# 개발자 환경에 따른 파일
+*.log
+*.sqlite
+
+# 테스트 및 코드 커버리지 관련 파일
+/coverage/
+/.idea/
+/.vscode/
+/.dart_tool/
+/.flutter-plugins
+/.flutter-plugins-dependencies
+/test_results.xml
+/build/
+
+# 프로덕션 환경에서 사용되는 파일
+*.key
+*.p12
+*.jks
+*.mobileprovision
+*.vcxproj
+*.vsix
+*.vsixmanifest
+*.pubxml
+*.publishsettings
+maven-publish/
